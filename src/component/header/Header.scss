@@ -1,0 +1,95 @@
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.301);
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        .logo{
+            width: 250px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a{
+                display: inline-block;
+                font-size: 35px;
+                font-weight: bold;
+                color: darkcyan;
+                margin: 0 auto;
+            }
+        }
+        nav{
+            max-width: 40% !important;
+            height: 100%;
+            .navigator{
+                max-width: 100%;
+                height: 100%;
+                list-style: none;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                li{
+                    a{
+                        font-size: 25px;
+                        color: rgb(255, 255, 255);
+                        font-weight: bold;
+                        margin-right: 30px;
+                    }
+                }
+            }
+        }
+        .right{
+            max-width: 40%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            .time{
+                max-width: 350px;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                font-size: 18px;
+                font-family: bold;
+                img{
+                    width: 50px;
+    
+                }
+                .detalis{
+                    margin-left: 10px;
+                    span{
+                        font-size: 22px;
+                        font-weight: bold;
+                        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                        text-transform: capitalize;
+                    }
+                    >p{
+                        font-size: 18px;
+                        margin-top: 10px;
+                    }
+                }
+            }
+            .cart{
+                max-width: 90px;
+                height: 100%;
+                text-align: center;
+                a{
+                    img{
+                        width: 50px;
+                        height: 100%;
+                    }
+                }
+        
+            }
+        }
+    }
+    
+}
