@@ -2,9 +2,7 @@
   width: 100%;
   height: -moz-min-content;
   height: min-content;
-  background-image: url(../../image/menu-bg.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  padding-top: 100px;
 }
 .menu .container {
   display: flex;

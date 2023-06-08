@@ -1,62 +1,48 @@
-import React,{useState, useEffect} from 'react';
+import React from 'react';
 import './Show_menu.css';
-import menu from '../../../menu.json';
+import { cartcontext } from '../../../App';
 
 
-const Show_menu = (props) => {
-   const [count, setcount] = useState(2)
-
-   const increment =(id) =>{ 
-      setcount(count + 1)
-      menu_fillter[id].count = menu_fillter[id].count + 1;
-   };
-
-   const descrement =(id) =>{
-         setcount(count -1)
-         menu_fillter[id].count = menu_fillter[id].count - 1;
-   } ;
-
-
-   const [menu_fillter, setmenu_fillter] = useState([])
-
-   const getmenu =()=>{
-      const fillter = menu.filter((item)=> item.category === props.categ);
-      setmenu_fillter(fillter)
-   }
-   useEffect(() => {
-      getmenu()
-   }, [props.categ])
-   
+const Show_menu = () => {
    return (
-      <div className="products">
-         <div className="product">
-            {menu_fillter.map((product, index) =>{
-            return(
-               <div className="menu-card" key={index}>
-                  <img src={require(`../../../image/menu/${product.img}`)} alt="" />
-                  <div className="detalis">
-                     <div className='product-det'>
-                        <h2>{product.name}</h2>
-                        <p>{product.desc}</p>
-                     </div>
-                     <div className="price">
-                        <p>السعر{product.price}</p>
-                        <div className="count">
-                           <button className='symb' onClick={()=>descrement(index)}>-</button>
-                           <span className='num'>{product.count<1?0:product.count}</span>
-                           <button className='symb' onClick={()=>increment(index)}>+</button>
+      <cartcontext.Consumer>
+         {
+            ({products_menu,category,getcartitemsdata, increment, descrement})=>{
+               return(
+                  <div className="products">
+                  <div className="product">
+                     {products_menu.filter(pro=>pro.category==category).map((product, index) =>{
+                     return(
+                        <div className="menu-card" key={index}>
+                           <img src={require(`../../../image/menu/${product.img}`)} alt="" />
+                           <div className="detalis">
+                              <div className='product-det'>
+                                 <h2>{product.name}</h2>
+                                 <p>{product.desc}</p>
+                              </div>
+                              <div className="price">
+                                 <p>السعر{product.price}</p>
+                                 <div className="count">
+                                    <button className='symb' onClick={()=>descrement(product.id)}>-</button>
+                                    <span className='num'>{product.count<1?0:product.count}</span>
+                                    <button className='symb' onClick={()=>increment(product.id)}>+</button>
+                                 </div>
+                              </div>
+                              <div className='add_cart'>
+                                 <button onClick={()=>{if(product.count>0){getcartitemsdata(product.id, product.count)}}}>اضف الي طلباتي</button>
+                              </div>
+                           </div>
                         </div>
-                     </div>
-                     <div className='add_cart'>
-                        <button>اضف الي طلباتي</button>
-                     </div>
+                     )
+                     })
+                     }
                   </div>
                </div>
-            )
-            })
+               )
             }
-         </div>
-      </div>
+         }
+      </cartcontext.Consumer>
+      
    )
 }
 

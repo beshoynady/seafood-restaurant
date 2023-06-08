@@ -1,9 +1,12 @@
 header {
   width: 100%;
   height: 100px;
-  background-color: rgba(0, 0, 0, 0.301);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.24);
   z-index: 1000;
-  position: absolute;
+  position: sticky;
   top: 0;
   left: 0;
 }
@@ -14,7 +17,7 @@ header .container {
   flex-wrap: nowrap;
 }
 header .container .logo {
-  width: 250px;
+  min-width: 120px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -24,15 +27,18 @@ header .container .logo a {
   display: inline-block;
   font-size: 35px;
   font-weight: bold;
-  color: darkcyan;
+  color: rgb(0, 212, 212);
   margin: 0 auto;
 }
 header .container nav {
-  max-width: 40% !important;
+  width: 80% !important;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 header .container nav .navigator {
-  max-width: 100%;
+  width: 60%;
   height: 100%;
   list-style: none;
   display: flex;
@@ -43,17 +49,11 @@ header .container nav .navigator li a {
   font-size: 25px;
   color: rgb(255, 255, 255);
   font-weight: bold;
-  margin-right: 30px;
+  margin-right: 25px;
+  letter-spacing: 1px;
 }
-header .container .right {
-  max-width: 40%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-header .container .right .time {
-  max-width: 350px;
+header .container nav .time {
+  width: 300px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -61,28 +61,79 @@ header .container .right .time {
   font-size: 18px;
   font-family: bold;
 }
-header .container .right .time img {
+header .container nav .time img {
   width: 50px;
 }
-header .container .right .time .detalis {
+header .container nav .time .detalis {
   margin-left: 10px;
 }
-header .container .right .time .detalis span {
-  font-size: 22px;
+header .container nav .time .detalis span {
+  font-size: 20px;
   font-weight: bold;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-transform: capitalize;
 }
-header .container .right .time .detalis > p {
-  font-size: 18px;
+header .container nav .time .detalis > p {
+  font-size: 16px;
   margin-top: 10px;
 }
-header .container .right .cart {
-  max-width: 90px;
+header .container .mob-menu {
+  width: 50px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header .container .mob-menu span {
+  width: 40px;
+  height: 2px;
+  display: block;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 5px;
+}
+header .container .cart-icon {
+  width: 80px;
   height: 100%;
   text-align: center;
 }
-header .container .right .cart a img {
+header .container .cart-icon a img {
   width: 50px;
   height: 100%;
+}
+
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+    height: 70px;
+    position: relative;
+    box-sizing: border-box;
+  }
+  header .container {
+    width: 100%;
+    height: 100%;
+  }
+  header .container nav {
+    background-color: rgb(38, 0, 255);
+    width: 30%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 200px;
+    left: 10px;
+  }
+  header .container nav .navigator {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .container nav .time {
+    width: 300px;
+  }
 }/*# sourceMappingURL=Header.css.map */

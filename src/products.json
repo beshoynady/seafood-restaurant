@@ -1,79 +1,90 @@
 [
     {
+        "id":1,
         "name":"بلطي سمك",
         "desc":"مقلي /ردة/ زيت وليون",
         "price":80,
-        "count": 1,
+        "count": 0,
         "img":"fish.jpg"
     },
     {
+        "id":2,
         "name":"بلطي سمك",
         "desc":"مقلي /ردة/ زيت وليون",
         "price":80,
-        "count": 1,
+        "count": 0,
         "img":"fish.jpg"
     },
     {
+        "id":3,
         "name":"بلطي سمك",
         "desc":"مقلي /ردة/ زيت وليون",
         "price":80,
-        "count": 1,
+        "count": 0,
         "img":"fish.jpg"
     },
     {
+        "id":4,
         "name":"بلطي سمك",
         "desc":"مقلي /ردة/ زيت وليون",
         "price":80,
-        "count": 1,
+        "count": 0,
         "img":"fish.jpg"
     },
     {
+        "id":5,
         "name":"بلطي سمك",
         "desc":"مقلي /ردة/ زيت وليون",
         "price":80,
-        "count": 1,
+        "count": 0,
         "img":"fish.jpg"
     },
     {
+        "id":6,
         "name":"بلطي سمك",
         "desc":"مقلي /ردة/ زيت وليون",
         "price":80,
-        "count": 1,
+        "count": 0,
         "img":"fish.jpg"
     },
     {
+        "id":7,
         "name":"بلطي سمك",
         "desc":"مقلي /ردة/ زيت وليون",
         "price":80,
-        "count": 1,
+        "count": 0,
         "img":"fish.jpg"
     },
     {
+        "id":8,
         "name":"بلطي سمك",
         "desc":"مقلي /ردة/ زيت وليون",
         "price":80,
-        "count": 1,
+        "count": 0,
         "img":"fish.jpg"
     },
     {
+        "id":9,
         "name":"بلطي سمك",
         "desc":"مقلي /ردة/ زيت وليون",
         "price":80,
-        "count": 1,
+        "count": 0,
         "img":"fish.jpg"
     },
     {
+        "id":10,
         "name":"بلطي سمك",
         "desc":"مقلي /ردة/ زيت وليون",
         "price":80,
-        "count": 1,
+        "count": 0,
         "img":"fish.jpg"
     },
     {
+        "id":11,
         "name":"بلطي سمك",
         "desc":"مقلي /ردة/ زيت وليون",
         "price":80,
-        "count": 1,
+        "count": 0,
         "img":"fish.jpg"
     }
 ]
