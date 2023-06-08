@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/beshoynady/seafood-restaurant.git/static/css/main.36bdbbd7.css",
-    "main.js": "/beshoynady/seafood-restaurant.git/static/js/main.2c91a09a.js",
-    "static/media/main-cover.jpg": "/beshoynady/seafood-restaurant.git/static/media/main-cover.1fec8a43b80c66d880b7.jpg",
-    "static/media/bg-sec1.jpg": "/beshoynady/seafood-restaurant.git/static/media/bg-sec1.ce284d22e2d3e0e537b8.jpg",
-    "static/media/Fried_Fish.jpg": "/beshoynady/seafood-restaurant.git/static/media/Fried_Fish.e61ef8a56c9638341870.jpg",
-    "static/media/Shrimp.jpg": "/beshoynady/seafood-restaurant.git/static/media/Shrimp.cbbaa0650220d10e3a51.jpg",
-    "static/media/rice.jpg": "/beshoynady/seafood-restaurant.git/static/media/rice.46ff0abc8aff7112a201.jpg",
-    "static/media/fixed-bg.jpg": "/beshoynady/seafood-restaurant.git/static/media/fixed-bg.40095cb5093aca1bbbf1.jpg",
-    "static/media/soup.jpg": "/beshoynady/seafood-restaurant.git/static/media/soup.7f638faf7dc955aac79f.jpg",
-    "static/media/Casserole.jpg": "/beshoynady/seafood-restaurant.git/static/media/Casserole.0db0e5601c4c1a0f5185.jpg",
-    "static/media/slate.jpg": "/beshoynady/seafood-restaurant.git/static/media/slate.e9709c633ab1c38ddda0.jpg",
-    "static/media/square-instagram.svg": "/beshoynady/seafood-restaurant.git/static/media/square-instagram.f69b5afd8883b35a5ce60d802644451b.svg",
-    "static/media/twitter.svg": "/beshoynady/seafood-restaurant.git/static/media/twitter.2a8369547b4f780f8aa99022ab1822fc.svg",
-    "index.html": "/beshoynady/seafood-restaurant.git/index.html",
-    "static/media/facebook.svg": "/beshoynady/seafood-restaurant.git/static/media/facebook.c8cf398eb4c6572039839ab3f17f27c2.svg",
-    "static/media/shopping_cart_black_24dp.svg": "/beshoynady/seafood-restaurant.git/static/media/shopping_cart_black_24dp.1d526f119d5c912562da99500869ff03.svg",
-    "static/media/clock_white_24dp.svg": "/beshoynady/seafood-restaurant.git/static/media/clock_white_24dp.8cd5ab9822924abbee1ef625b7e889fd.svg",
-    "main.36bdbbd7.css.map": "/beshoynady/seafood-restaurant.git/static/css/main.36bdbbd7.css.map",
-    "main.2c91a09a.js.map": "/beshoynady/seafood-restaurant.git/static/js/main.2c91a09a.js.map"
+    "main.css": "/seafood-restaurant/static/css/main.61b49bb7.css",
+    "main.js": "/seafood-restaurant/static/js/main.68a15d54.js",
+    "static/media/main-cover.jpg": "/seafood-restaurant/static/media/main-cover.1fec8a43b80c66d880b7.jpg",
+    "static/media/bg-sec1.jpg": "/seafood-restaurant/static/media/bg-sec1.ce284d22e2d3e0e537b8.jpg",
+    "static/media/Fried_Fish.jpg": "/seafood-restaurant/static/media/Fried_Fish.e61ef8a56c9638341870.jpg",
+    "static/media/Shrimp.jpg": "/seafood-restaurant/static/media/Shrimp.cbbaa0650220d10e3a51.jpg",
+    "static/media/rice.jpg": "/seafood-restaurant/static/media/rice.46ff0abc8aff7112a201.jpg",
+    "static/media/fixed-bg.jpg": "/seafood-restaurant/static/media/fixed-bg.40095cb5093aca1bbbf1.jpg",
+    "static/media/soup.jpg": "/seafood-restaurant/static/media/soup.7f638faf7dc955aac79f.jpg",
+    "static/media/Casserole.jpg": "/seafood-restaurant/static/media/Casserole.0db0e5601c4c1a0f5185.jpg",
+    "static/media/slate.jpg": "/seafood-restaurant/static/media/slate.e9709c633ab1c38ddda0.jpg",
+    "static/media/square-instagram.svg": "/seafood-restaurant/static/media/square-instagram.f69b5afd8883b35a5ce60d802644451b.svg",
+    "static/media/twitter.svg": "/seafood-restaurant/static/media/twitter.2a8369547b4f780f8aa99022ab1822fc.svg",
+    "index.html": "/seafood-restaurant/index.html",
+    "static/media/facebook.svg": "/seafood-restaurant/static/media/facebook.c8cf398eb4c6572039839ab3f17f27c2.svg",
+    "static/media/shopping_cart_black_24dp.svg": "/seafood-restaurant/static/media/shopping_cart_black_24dp.1d526f119d5c912562da99500869ff03.svg",
+    "static/media/clock_white_24dp.svg": "/seafood-restaurant/static/media/clock_white_24dp.8cd5ab9822924abbee1ef625b7e889fd.svg",
+    "main.61b49bb7.css.map": "/seafood-restaurant/static/css/main.61b49bb7.css.map",
+    "main.68a15d54.js.map": "/seafood-restaurant/static/js/main.68a15d54.js.map"
   },
   "entrypoints": [
-    "static/css/main.36bdbbd7.css",
-    "static/js/main.2c91a09a.js"
+    "static/css/main.61b49bb7.css",
+    "static/js/main.68a15d54.js"
   ]
 }
